@@ -1,0 +1,75 @@
+.Title{
+    font-size: 20px;
+
+    color: #098d31;
+    padding-right: 0px;
+    margin-left: 20px;
+    margin-right: 80%;
+}
+.outer-div{
+    /* box-shadow: 10px 10px 8px #888888; */
+}
+
+.Institution{
+    font-size: 20px;
+}
+.outer-div { 
+     display: flex; 
+     margin-top: 100px;
+    padding-right: 80px;
+    flex-wrap: wrap;
+     margin-bottom: 100px; 
+    justify-content: space-between; 
+    /* box-shadow: 5px 10px 10px 10px #B0ACAC; */
+ }
+.container {
+    height: 200px;
+    width: 253px;
+    /* box-shadow: 5px 10px 8px 10px #D9D9D9; */
+    border-radius: 25px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 80px;
+    margin-right: 15px;
+    margin-left: 15px;
+    /* box-shadow: 0px 0px 15px #B0ACAC; */
+    /* border-radius: 54px; */
+    background: #f1f5f7;
+    padding-bottom: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow:  24px 24px 48px #989a9c,
+                 -24px -24px 48px #ffffff;
+}
+.Institution{
+    color:rgb(6, 52, 202);
+    /* margin-left:10px; */
+    text-align: center;
+    /* color:linear-gradient(90deg, rgb(12, 12, 232) 0%, rgba(0,212,255,1) 100%); */
+}
+.Institution:hover{
+    transform:none;
+    transition: 2s;
+}
+.edu-img{
+    padding-left:-30px;
+    margin-left: -50px;
+    border-radius:25px;
+}
+@media only screen and (max-width: 900px) {
+    .outer-div{
+        display: block;
+    }
+    .container{
+        margin-left: 35%;
+    }
+}
+.edu-img-sp{
+    width: 200px;
+    height:200px;
+}
+@media only screen and (max-width: 300px) {
+   .container{
+    /* margin-left: -60px;00 */
+   
+   }
+}
